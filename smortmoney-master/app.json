@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "android": {
+      "permissions": ["CAMERA"]
+    },
+    "ios": {
+      "permissions": {
+        "info.plist": {
+          "NSCameraUsageDescription": "Allow access to the camera to take photos"
+        }
+      }
+    },
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro",
+      "config": {
+        "webPlayer": {
+          "shouldUseCamera": true
+        }
+      }
+    },
+    "name": "SmortMoney",
+    "slug": "SmortMoney",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
